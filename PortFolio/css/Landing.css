@@ -23,6 +23,7 @@
     line-height: 60px;
     overflow: hidden;
 }
+
 footer {
     display: block;
 }
@@ -35,4 +36,17 @@ footer {
 
 a {
     text-decoration: none;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/NeueMachina-Light.ttf);
+}
+@font-face {
+    font-family: myMainHeadFont;
+    src: url(../fonts/NeueMachina-Medium.ttf);
+}
+
+.main-header {
+    font-family: myMainHeadFont;
 }
