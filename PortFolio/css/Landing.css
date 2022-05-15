@@ -17,11 +17,11 @@
 
 .footer {
     position: fixed;
-    bottom: 0;
+    bottom: 1.7em;
     width: 100%;
     height: 60px;
     line-height: 60px;
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 footer {
@@ -50,3 +50,17 @@ a {
 .main-header {
     font-family: myMainHeadFont;
 }
+.body-bg{
+    background-color: #080808;
+    overflow-x: hidden;
+}
+p{
+    font-family: myFirstFont;
+}
+
+.centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
